@@ -26,6 +26,8 @@ use warnings;
 use utf8;
 use DateTime;
 
+#tohle jsou data, sesbíraná z fóra, z jiného experimentu.
+#k němu už jsem kód nenašel
 my %idf;
 open my $idfdata, "<:utf8", "../data/vseIDF_sorted_mensi" or die $!;
 while (my $line = <$idfdata>) {
