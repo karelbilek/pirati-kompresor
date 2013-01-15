@@ -21,6 +21,12 @@
 #(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
 #SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
+##skript ma tri casti - jednak nejake blbosti na zacatku
+#pak cast tisknouci, co veci tiskne do HTML
+#a cast nahravaci, co veci loaduje z fora
+
+#teoreticky by to melo byt ve vice souborech misto jednoho obriho skriptu, ale jsem liny
+
 use strict;
 use warnings;
 use utf8;
