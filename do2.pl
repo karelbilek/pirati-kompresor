@@ -749,7 +749,7 @@ sub load_articles_from_HTML{
        #(docela pitome, ale tak to holt ten phpbb mod dela)
        $content_real = $contents[0]->innerHTML();
 	   my $content_text = $contents[0]->as_text();
-       if (scalar @contents==3) {
+       if (scalar @contents>=2) {
 
            
            my $thanks_text = $contents[1]->as_text();
